@@ -25,7 +25,7 @@ const DeviceRedirect = () => {
       }
       
       // For all other devices (Windows, macOS, Linux, etc.), redirect to the app page
-      window.location.href = 'https://clarity-solutions.io/clarity-solutions-app';
+      window.location.href = 'https://clarity-solutions.io/download-the-app';
     };
 
     detectDeviceAndRedirect();

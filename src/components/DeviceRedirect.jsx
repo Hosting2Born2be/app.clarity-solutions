@@ -13,14 +13,14 @@ const DeviceRedirect = () => {
       // Check if it's Android
       if (userAgent.includes('android')) {
         // Redirect to Google Play Store
-        window.location.href = 'https://play.google.com/store/apps/details?id=your.app.package.name';
+        window.location.href = 'https://play.google.com/store/apps/details?id=io.claritysolutions.whitelabel';
         return;
       }
       
       // Check if it's iOS (iPhone, iPad, iPod)
       if (/iphone|ipad|ipod/.test(userAgent)) {
         // Redirect to App Store
-        window.location.href = 'https://apps.apple.com/app/your-app-id';
+        window.location.href = 'https://apps.apple.com/us/app/global-clarity-cards/id6746410505';
         return;
       }
       
